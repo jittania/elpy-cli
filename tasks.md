@@ -1,6 +1,12 @@
 # TODOs
 
-- [X] Research frameworks/libs to use and concepts to cover
+- [ ] Set up environment: https://realpython.com/python-virtual-environments-a-primer/
+- [ ] Get dependecies installed and pinned
+    - [ ] Typer
+    - [ ] Spotipy
+    - [ ] Pytest
+    - [ ] Ruff
+- [ ] Research frameworks/libs to use and concepts to cover
     - [ ] Typer: https://realpython.com/python-typer-cli/
     - [ ] Spotipy: https://spotipy.readthedocs.io/en/2.23.0_a/
     - [ ] Pytest: https://realpython.com/pytest-python-testing/
@@ -8,8 +14,8 @@
     - [ ] The Factory method pattern: https://realpython.com/factory-method-python/#the-problems-with-complex-conditional-code
     - [ ] Threading: https://realpython.com/intro-to-python-threading/
     - [ ] ...Other packages that may/may not be relevant but could be nice to get experience in: https://realpython.com/python-packages/
-- [ ] Set up environment: https://realpython.com/python-virtual-environments-a-primer/
-- [ ] Get dependecies installed and pinned
+- [ ] More setup stuff
+    - [ ] Get packages working from the CL, not just in VS Code
 - [ ] Set up an entry-point script to read/output some stuff from Spotify: https://realpython.com/python-typer-cli/
 - [ ] Identify core problem(s) - what are things you wish Spotify could do that it can't
 - [ ] Identify technical decisions (add to this list below)
@@ -29,4 +35,4 @@
     - [ ] DRY code
     - [ ] No magic strings
 - [ ] Run linter
-- [ ] Add logging if there's time
+- [ ] Add logging
