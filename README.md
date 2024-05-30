@@ -75,14 +75,16 @@ $ source venv/bin/activate
 (venv) $ pip install -r requirements.txt
 ```
 
-3. Make sure the Python Interpreter is set up correctly from within VS Code
+3. Make sure the Python Interpreter is set up correctly:
+   1. from within VS Code
 by selecting SHIFT + CMD + P -> 'Python: Select Interpreter' -> Select the interpreter
 path that includes ('venv': venv).
+    2. CL...?
 
-4. Run the following command to execute program:
+1. Run the following command to execute program:
    
 ```bash
-(venv) $ python -m
+(venv) $ python -m elpy_cli
 ```
 
 5. Run all tests:

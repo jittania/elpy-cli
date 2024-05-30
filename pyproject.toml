@@ -1,0 +1,11 @@
+[project]
+name = "elpy_cli"
+version = "0.1.0"
+authors = []
+description = ""
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]

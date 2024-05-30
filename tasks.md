@@ -1,11 +1,11 @@
 # TODOs
 
-- [ ] Set up environment: https://realpython.com/python-virtual-environments-a-primer/
-- [ ] Get dependecies installed and pinned
-    - [ ] Typer
-    - [ ] Spotipy
-    - [ ] Pytest
-    - [ ] Ruff
+- [X] Set up environment: https://realpython.com/python-virtual-environments-a-primer/
+- [X] Get dependecies installed and pinned
+    - [X] Typer
+    - [X] Spotipy
+    - [X] Pytest
+    - [X] Ruff
 - [ ] Research frameworks/libs to use and concepts to cover
     - [ ] Typer: https://realpython.com/python-typer-cli/
     - [ ] Spotipy: https://spotipy.readthedocs.io/en/2.23.0_a/
