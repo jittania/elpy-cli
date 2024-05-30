@@ -1,0 +1,32 @@
+# TODOs
+
+- [X] Research frameworks/libs to use and concepts to cover
+    - [ ] Typer: https://realpython.com/python-typer-cli/
+    - [ ] Spotipy: https://spotipy.readthedocs.io/en/2.23.0_a/
+    - [ ] Pytest: https://realpython.com/pytest-python-testing/
+    - [ ] Async programming: https://realpython.com/python-async-features/
+    - [ ] The Factory method pattern: https://realpython.com/factory-method-python/#the-problems-with-complex-conditional-code
+    - [ ] Threading: https://realpython.com/intro-to-python-threading/
+    - [ ] ...Other packages that may/may not be relevant but could be nice to get experience in: https://realpython.com/python-packages/
+- [ ] Set up environment: https://realpython.com/python-virtual-environments-a-primer/
+- [ ] Get dependecies installed and pinned
+- [ ] Set up an entry-point script to read/output some stuff from Spotify: https://realpython.com/python-typer-cli/
+- [ ] Identify core problem(s) - what are things you wish Spotify could do that it can't
+- [ ] Identify technical decisions (add to this list below)
+    - [ ] Draw/list out high-level design (see Rover project for reminder)
+    - [ ] Models
+    - [ ] Functions, methods
+    - [ ] Project organization - files, folders etc
+    - [ ] OAuth
+    - [ ] How to make deploy/distrubute
+- [ ] Make technical decisions from above
+- [ ] Implement components of algorithn (from high-level design created in earlier step)
+- [ ] Debugging refresher with pdb: https://realpython.com/python-debugging-pdb/
+- [ ] Add tests: https://realpython.com/pytest-python-testing/
+- [ ] Refactoring/optimizing
+    - [ ] Split up functions and classes into separate files
+    - [ ] Optimize - can it be faster? See if map()/reduce()/filter() can be utilized anywhere
+    - [ ] DRY code
+    - [ ] No magic strings
+- [ ] Run linter
+- [ ] Add logging if there's time
