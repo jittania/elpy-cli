@@ -57,7 +57,7 @@
     ::::::::::::::::-:::-::::::::::::::::::::::::::::-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ---
-## Setup steps for development:
+## Dev Setup:
 
 1. `cd` into top level folder of project
    
