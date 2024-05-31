@@ -16,9 +16,10 @@
     - [X] Ruff
 - [ ] Spotipy setup:
     - [X] Register app here https://developer.spotify.com/
-    - [ ] Add a valid redirect URI to https://developer.spotify.com/dashboard/7fba64219bb94ad1a24a5d78ae2b21ae/settings
-    - [ ] ...
-    - [ ] Set up an entry-point script to read/output some stuff from Spotify: https://realpython.com/python-typer-cli/
+    - [X] Add a valid redirect URI to https://developer.spotify.com/dashboard/7fba64219bb94ad1a24a5d78ae2b21ae/settings
+    - [X] Set up client ID and client secret: https://youtu.be/kaBVN8uP358?feature=shared
+    - [X] Set up an entry-point script to read/output some stuff from Spotify
+    - [ ] Modify it to read/output some user-specific stuff to further test OAuth
 - [ ] Typer: https://realpython.com/python-typer-cli/
 - [ ] Async programming: https://realpython.com/python-async-features/
 - [ ] The Factory method pattern: https://realpython.com/factory-method-python/#the-problems-with-complex-conditional-code
