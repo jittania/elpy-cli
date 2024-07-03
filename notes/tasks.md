@@ -2,28 +2,33 @@
 
 ### Setup + Learning
 - [X] Set up environment: https://realpython.com/python-virtual-environments-a-primer/
+    - python -m pip freeze > requirements.txt
 - [X] Decide on frameworks/libs to use and concepts to cover
     - Spotipy: https://spotipy.readthedocs.io/en/2.24.0/
     - Typer: https://realpython.com/python-typer-cli/
     - Async programming: https://realpython.com/python-async-features/
     - The Factory method pattern: https://realpython.com/factory-method-python/#the-problems-with-complex-conditional-code
     - Threading: https://realpython.com/intro-to-python-threading/
+    - Anonymous functions: https://realpython.com/python-lambda/
     - ...Other packages that may/may not be relevant but could be nice to get experience in: https://realpython.com/python-packages/
 - [X] Get dependecies installed and pinned
     - [X] Typer
     - [X] Spotipy
     - [X] Pytest
     - [X] Ruff
-- [ ] Spotipy setup:
+- [X] Spotipy basic setup:
     - [X] Register app here https://developer.spotify.com/
     - [X] Add a valid redirect URI to https://developer.spotify.com/dashboard/7fba64219bb94ad1a24a5d78ae2b21ae/settings
     - [X] Set up client ID and client secret: https://youtu.be/kaBVN8uP358?feature=shared
     - [X] Set up an entry-point script to read/output some stuff from Spotify
-    - [ ] Modify it to read/output some user-specific stuff to further test OAuth
-- [ ] Typer: https://realpython.com/python-typer-cli/
+- [ ] Set up environment variables using the python-dotenv package
+- [ ] Spotipy authorization setup:
+    - [ ] Follow this tutorial to get authorization flow set up correctly using client ID, client secret, and redirect URI: https://www.youtube.com/watch?v=tmt5SdvTqUI&list=PLqgOPibB_QnzzcaOFYmY2cQjs35y0is9N&index=1
+- [ ] Look up the API web interface and mess around with printing some different GET/POST request data 
+- [ ] Threading: https://realpython.com/intro-to-python-threading/
 - [ ] Async programming: https://realpython.com/python-async-features/
 - [ ] The Factory method pattern: https://realpython.com/factory-method-python/#the-problems-with-complex-conditional-code
-- [ ] Threading: https://realpython.com/intro-to-python-threading/
+- [ ] Typer: https://realpython.com/python-typer-cli/
 - ...Other packages that may/may not be relevant but could be nice to get experience in: https://realpython.com/python-packages/
 
 
@@ -40,6 +45,7 @@
 - [ ] Implement components of algorithn (from high-level design created in earlier step)
 - [ ] Run linter
 - [ ] Add logging
+- [ ] Evaluate whether to use a client credential flow instead, which offers higher rate limiting: https://spotipy.readthedocs.io/en/2.24.0/#getting-started
 
 
 ### Testing + Debugging

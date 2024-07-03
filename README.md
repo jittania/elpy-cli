@@ -81,6 +81,14 @@ by selecting SHIFT + CMD + P -> 'Python: Select Interpreter' -> Select the inter
 path that includes ('venv': venv).
     2. CL...?
 
+1. Create a `.env` file in your root directory containing the following, which can be set up and obtained from here (will have to create your own app first): https://developer.spotify.com/dashboard:
+
+```bash
+SPOTIPY_CLIENT_ID='your-spotify-client-id'
+SPOTIPY_CLIENT_SECRET='your-spotify-client-secret'
+SPOTIPY_REDIRECT_URI='your-spotify-reditect-uri'
+```
+
 1. Run the following command to execute program:
    
 ```bash
