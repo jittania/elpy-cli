@@ -21,9 +21,9 @@
     - [X] Add a valid redirect URI to https://developer.spotify.com/dashboard/7fba64219bb94ad1a24a5d78ae2b21ae/settings
     - [X] Set up client ID and client secret: https://youtu.be/kaBVN8uP358?feature=shared
     - [X] Set up an entry-point script to read/output some stuff from Spotify
-- [ ] Set up environment variables using the python-dotenv package
-- [ ] Spotipy authorization setup:
-    - [ ] Follow this tutorial to get authorization flow set up correctly using client ID, client secret, and redirect URI: https://www.youtube.com/watch?v=tmt5SdvTqUI&list=PLqgOPibB_QnzzcaOFYmY2cQjs35y0is9N&index=1
+- [X] Set up environment variables using the python-dotenv package
+- [X] Spotipy authorization setup:
+    - [X] Follow this tutorial to get authorization flow set up correctly using client ID, client secret, and redirect URI: https://www.youtube.com/watch?v=tmt5SdvTqUI&list=PLqgOPibB_QnzzcaOFYmY2cQjs35y0is9N&index=1
 - [ ] Look up the API web interface and mess around with printing some different GET/POST request data 
 - [ ] Threading: https://realpython.com/intro-to-python-threading/
 - [ ] Async programming: https://realpython.com/python-async-features/
